@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/samurai71/chatApp.git"
+    "url": "git+https://github.com/samurai71/chatApp.git"
   },
   "keywords": [],
   "author": "Mark Landeryou",
@@ -20,5 +20,6 @@
   "dependencies": {
     "express": "^4.16.2",
     "grunt": "^1.0.1"
-  }
+  },
+  "devDependencies": {}
 }
