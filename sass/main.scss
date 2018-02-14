@@ -5,21 +5,36 @@
 
 body { font: 13px Helvetica, Arial; }
 
+.grad1 {
+    background: blue; /* For browsers that do not support gradients */
+    background: linear-gradient(blue, white); /* Standard syntax (must be last) */
+}
+
+.jumbotron { background-color: #999999;
+	color: #ffffff;
+}
+
 form {
 	background: #000;
 	padding: 3px;
 	position: fixed;
 	bottom: 0;
-	width: 50%;
+	// width: 50%;
 
-	input { border: 0; padding: 10px; width: 90%; margin-right: 0.5%; }
+	input { border: 0;
+		 padding: 10px;
+		  // width: 90%;
+			margin-right: 0.5%; }
 
-	button { width: 9%; background: rgb(130, 224,255); border: none; padding: 10px; }
+	button { width: 9%;
+		background: rgb(130, 224, 255);
+		 border: none; padding: 10px; }
 }
 
 #messages {
 	list-style-type: none; margin: 0; padding: 0;
 
 	li { padding: 5px 10px;	}
-	li:nth-child(odd) { background: #eee; }
+	li:nth-child(odd) {
+		background: #eee; }
 }
