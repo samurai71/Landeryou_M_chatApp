@@ -10,7 +10,7 @@ body { font: 13px Helvetica, Arial; }
     background: linear-gradient(blue, white); /* Standard syntax (must be last) */
 }
 
-.jumbotron { background-color: #999999;
+.jumbotron { background: #999999;
 	color: #ffffff;
 }
 
@@ -28,7 +28,8 @@ form {
 
 	button { width: 9%;
 		background: rgb(130, 224, 255);
-		 border: none; padding: 10px; }
+		 border: none;
+		 padding: 10px; }
 }
 
 #messages {
