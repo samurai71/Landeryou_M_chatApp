@@ -6,7 +6,7 @@
 body { font: 13px Helvetica, Arial; }
 
 .grad1 {
-    background: blue; /* For browsers that do not support gradients */
+    /* background: blue; /* For browsers that do not support gradients */
     background: linear-gradient(blue, white); /* Standard syntax (must be last) */
 }
 

@@ -11,7 +11,7 @@
     "url": "https://github.com/samurai71/chatApp"
   },
   "keywords": [],
-  "author": "TVR",
+  "author": "Mark Landeryou",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.2",
